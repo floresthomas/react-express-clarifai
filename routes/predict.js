@@ -16,7 +16,6 @@ function predictImage(inputs) {
     return new Promise((resolve, reject) => {
         stub.PostModelOutputs(
             {
-                // This is the model ID of a publicly available General model. You may use any other public or custom model ID.
                 model_id: "aaa03c23b3724a16a56b629203edc62c",
                 inputs: inputs
             },
