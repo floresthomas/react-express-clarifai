@@ -8,6 +8,9 @@
     "start": "node ./app.js",
     "dev": "nodemon ./app.js"
   },
+  "engines": {
+    "node": "18.13.0"
+  },
   "author": "floresthomas",
   "license": "ISC",
   "dependencies": {
